@@ -1054,7 +1054,7 @@ color:red;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   #call-to-action .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1071,7 +1071,7 @@ color:red;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .back-to-top {
     bottom: 15px;
   }
