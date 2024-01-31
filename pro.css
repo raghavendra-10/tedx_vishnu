@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:thistle;
+}
+.i{
+    border-radius: 1px solid black;
+    border-radius: 50%;
+    height:360px;
+    width:380px;
+}
+
+
+header {
+    background-color:orchid;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size:large;
+}
+.login-btn {
+    position: absolute;
+   background-color: plum;
+   border-color: transparent;
+   color:white;
+   font-weight: bold;
+   font-family: Roboto;
+    right: 40px; 
+    width: 80px;
+}
+.taskbar{
+    background-color:lavender;
+    padding:6px;
+    margin-top:-20px;
+    margin-left: -18px;
+    margin-right: -18px;
+}
+.taskbar li{
+   display:inline;
+   float:center;
+   padding:15px;
+   
+}
+.taskbar li a{
+    margin:30px;
+    text-decoration: none;
+    padding: 10px;
+    color:plum;
+    font-weight: semibold;
+   
+}
+
+
+
+.down{
+    background-color:rgb(138, 138, 246);
+    width:120px;
+    padding:5px;
+    color:white;
+    border-color: transparent;
+    border-radius:5px;
+    border-width:6px;
+    
+}
+.nav{
+    width:100vw;
+}
+
+
+.card{
+    height:320px;
+    width:340px;margin:0px;
+    padding: 0px;
+
+    border-radius: 50%;
+
+    
+}
+.bg{
+    background-image: url("https://www.headwaytherapygroup.com/wp-content/uploads/2020/08/stressed-girl-1024x683.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+.bg2{
+    background-image: url("https://cdn10.phillymag.com/wp-content/uploads/sites/3/2018/07/podcast-mic-istock-900x600.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.bg1{
+    background-image: url("https://www.bigstridz.com/wp-content/uploads/2018/07/self-improvement.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
