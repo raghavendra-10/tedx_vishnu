@@ -1,355 +1,490 @@
 <html>
+
 <head>
-<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta content="tedxvce, tedx, tedx talks, hyderabad, talks, speakers" name="keywords">
-    <meta content="TEDx is an international community that organizes TED-style events anywhere and everywhere" name="description">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="speaker.css"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta content="tedxvce, tedx, tedx talks, hyderabad, talks, speakers" name="keywords">
+  <meta content="TEDx is an international community that organizes TED-style events anywhere and everywhere"
+    name="description">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
+    rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="speaker.css" />
 
 
-    <title>Speakers</title>
-    <style>
-	      #header {
-            background-color: black;
-        }
-	      .card-text{
-            color: white;
-        }
-        .card-img-top {
-            height: 400px;
-            weight: 500px;
-        }
-        .card:hover {
-            transform: scale(1.01);
-        }
-        
-        .card-title {
-            text-transform: uppercase;
-            font-weight: bold;
-            color: red;
-        }
-        
-        .card-text {
-            font-weight: 600;
-            text-transform: capitalize;
-        }
-        
-        .social a .tw {
-            background-color: #0084b4;
-        }
-        
-        .social a .fb {
-            background-color: #3b5998;
-        }
-        
-        .social a .ig {
-            background-color: #cd486b;
-        }
-        
-        .social a .tw:hover {
-            transform: scale(1.15);
-        }
-        
-        .social a .fb:hover {
-            transform: scale(1.15);
-        }
-        
-        .social a .ig:hover {
-            transform: scale(1.15);
-        }
-        
-        .social div {
-            width: 40px;
-            height: 40px;
-            background: green;
-            margin: 0 5px;
-            border-radius: 50%;
-            cursor: pointer;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #fff;
-        }
-        
-        .social {
-            width: 50%;
-            height: 50px;
-            position: absolute;
-            z-index: 15;
-            bottom: 0%;
-            display: flex;
-            justify-content: flex-end;
-        }
-        
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 9999;
-            width: 100%;
-            height: 60px;
-            background-color: black;
-            opacity: 0.85;
-        }
-        
-        .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 1px 16px;
-            text-decoration: none;
-        }
-        
-        .main {
-            padding: 13px;
-            margin-top: 50px;
-            height: 1500px;
-            /* Used in this example to enable scrolling */
-        }
-        
-        .null {
-            display: none;
-            visibility: hidden;
-        }
-    </style>
+  <title>Speakers</title>
+  <style>
+    #header {
+      background-color: black;
+    }
+
+    .card-text {
+      color: white;
+    }
+
+    .card-img-top {
+      height: 400px;
+      weight: 500px;
+    }
+
+    .card:hover {
+      transform: scale(1.01);
+    }
+
+    .card-title {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: red;
+    }
+
+    .card-text {
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    .social a .tw {
+      background-color: #0084b4;
+    }
+
+    .social a .fb {
+      background-color: #3b5998;
+    }
+
+    .social a .ig {
+      background-color: #cd486b;
+    }
+
+    .social a .tw:hover {
+      transform: scale(1.15);
+    }
+
+    .social a .fb:hover {
+      transform: scale(1.15);
+    }
+
+    .social a .ig:hover {
+      transform: scale(1.15);
+    }
+
+    .social div {
+      width: 40px;
+      height: 40px;
+      background: green;
+      margin: 0 5px;
+      border-radius: 50%;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    .social {
+      width: 50%;
+      height: 50px;
+      position: absolute;
+      z-index: 15;
+      bottom: 0%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+      width: 100%;
+      height: 60px;
+      background-color: black;
+      opacity: 0.85;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 1px 16px;
+      text-decoration: none;
+    }
+
+    .main {
+      padding: 13px;
+      margin-top: 50px;
+      height: 1500px;
+      /* Used in this example to enable scrolling */
+    }
+
+    .null {
+      display: none;
+      visibility: hidden;
+    }
+  </style>
 </head>
+
 <body>
- <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   
-   <header id="header">
-        <div class="container">
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
-            <div id="logo" class="pull-left">
-              <h1 style="float: left"><a href="#body"><img src="img/tedxlogovit.png" height="50px" width="230px"></a></h1>
-            </div>
+  <header id="header">
+    <div class="container">
 
-            <nav style="float: right;" id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li class="menu-active"><a href="index.html#body">HOME</a></li>
-                    <li><a href="index.html#about">ABOUT</a></li>
-                    <li><a href="index.html#portfolio">MEDIA</a></li>
-                    <li><a href="index.html#clients">PARTNERS</a></li>
+      <div id="logo" class="pull-left">
+        <h1 style="float: left"><a href="#body"><img src="img/tedxlogovit.png" height="50px" width="230px"></a></h1>
+      </div>
 
-                    <li><a href="index.html#contact">VENUE</a></li>
+      <nav style="float: right;" id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="index.html#body">HOME</a></li>
+          <li><a href="index.html#about">ABOUT</a></li>
+          <li><a href="index.html#portfolio">MEDIA</a></li>
+          <li><a href="index.html#clients">PARTNERS</a></li>
 
-                    <li>
-                        <form action=team.html>
-                            <input type="submit" value="TEAM" style="cursor: pointer;background-color:#E62B1E;color:white;border-color:#E62B1E;font-weight:bold;width:100px;height:36px;padding-top:3px;border-radius: 6px;"></form>
-                    </li>
-                    <li>
-		         <form action=speakers.html>
-		            <input type="submit" value="SPEAKERS" style="cursor: pointer;background-color:#E62B1E;color:white;border-color:#E62B1E;font-weight:bold;height:36px;padding-top:3px;border-radius: 6px;padding-right:12px;padding-left:12px"></form></li>
-                    <li>
-                        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfrrGMsSIch57X5Cob31WS7jpPSEidkwqHPgPzoJOkKFFiqjw/viewform">
-                            <input type="submit" value="TICKETS" style="cursor: pointer;background-color:#E62B1E;color:white;border-color:#E62B1E;font-weight:bold;width:100px;height:36px;padding-top:3px;padding-left:3px;padding-right:3px;border-radius: 6px;"></form>
-                    </li>
-                    <!--<li>
+          <li><a href="index.html#contact">VENUE</a></li>
+
+          <li>
+            <form action=team.html>
+              <input type="submit" value="TEAM"
+                style="cursor: pointer;background-color:#E62B1E;color:white;border-color:#E62B1E;font-weight:bold;width:100px;height:36px;padding-top:3px;border-radius: 6px;">
+            </form>
+          </li>
+          <li>
+            <form action=speakers.html>
+              <input type="submit" value="SPEAKERS"
+                style="cursor: pointer;background-color:#E62B1E;color:white;border-color:#E62B1E;font-weight:bold;height:36px;padding-top:3px;border-radius: 6px;padding-right:12px;padding-left:12px">
+            </form>
+          </li>
+          <li>
+            <form
+              action="https://docs.google.com/forms/d/e/1FAIpQLSfrrGMsSIch57X5Cob31WS7jpPSEidkwqHPgPzoJOkKFFiqjw/viewform">
+              <input type="submit" value="TICKETS"
+                style="cursor: pointer;background-color:#E62B1E;color:white;border-color:#E62B1E;font-weight:bold;width:100px;height:36px;padding-top:3px;padding-left:3px;padding-right:3px;border-radius: 6px;">
+            </form>
+          </li>
+          <!--<li>
                         <form action="#">
                             <input type="submit" value="TICKETS" style="background-color:#E62B1E;color:white;border-color:#E62B1E;font-weight:bold;height:36px;padding-top:3px;border-radius: 6px;"></form>
                     </li>-->
-                    <li style="color:grey; padding-top:10px">|</li>
-                    <li class="social-links">
+          <li style="color:grey; padding-top:10px">|</li>
+          <li class="social-links">
 
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/Tedxvce-359483908032356/" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li>
-                        <a href="https://instagram.com/tedxvce?igshid=1ijrwvm3uo0ip" class="instagram"><i class="fa fa-instagram"></i></a></li>
-                    <li>
-			                  <a href="https://www.linkedin.com/company/tedxvce/" class="linkedln"><i class="fa fa-linkedin"></i></a></li>
-                    </li>
-                </ul>
-            </nav>
-            <!-- #nav-menu-container -->
-        </div>
-    </header>
-
-<div class="main">
-<div class="container py-3">
-  <div class="title h1 text-center" style="color:white;font-family: verdana;font-weight:bold;">SPEAKERS</div>
-  <!-- Card Start -->
-  
-  
-  <div class="card">
-    <div class="row ">
-      <div class="col-md-7 px-3">
-        <div class="card-block px-6">
-         <center> <h4 class="card-title"><b>Mr. Dilip Kumar Solasa</b> </h4></center>
-         <p class="subt">
-          CEO, Clareo Minds Consulting
-         </p>
-          <p class="card-text">
-            Mr. Dilip Kumar Solasa had experience over 28 years in IT leadership, He is a seasoned expert in the industry. Dilip held leadership roles in IT giants like Wipro, and Cognizant and managed large IT portfolios across India, US, and Europe. Dilip transitioned into Executive Coaching 3 years back and started his own leadership coaching firm. Dilip loves delving into positive psychology, emotional intelligence frameworks, and applied neuroscience. With over 800+ hours of coaching experience, Dilip combines industry experience with evidence-based coaching techniques to catapult introverts into the orbit of fearless strategic influencers. His signature 3-Shift framework when coupled with his real-world leadership experience makes him uniquely qualified to exponentially empower introverted professionals to transform themselves to become impactful senior leaders with significant influence in the society.
-
-    </p>
-          
-         </div>
-      </div>
-       <div class="col-md-5">
-           <img class="d-block" src="img/speakers/Dilip.jpeg" alt="" >
-      </div>  
+          </li>
+          <li>
+            <a href="https://www.facebook.com/Tedxvce-359483908032356/" class="facebook"><i
+                class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://instagram.com/tedxvce?igshid=1ijrwvm3uo0ip" class="instagram"><i
+                class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/tedxvce/" class="linkedln"><i class="fa fa-linkedin"></i></a>
+          </li>
+          </li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
     </div>
-  </div> 
-  <div class="card">
-    <div class="row ">
-      <div class="col-md-7 px-3">
-        <div class="card-block px-6">
-         <center> <h4 class="card-title"><b>Dr. Durga G L K</b> </h4></center>
-         <p class="subt">
-          Vice President, AMS
-         </p>
-          <p class="card-text">
-            Dr. G.L.K. Durga was born in Gudivada, AP, She had faced financial struggles during her initial years but excelled academically. Despite challenges, She graduated first in college, secured a job, and pursued M.Com, overcoming financial hurdles with scholarships. Marriage and motherhood didn't deter her from obtaining an M.Phil and Ph.D. She became a Reader in Commerce, authored books, and presented research papers globally. Served as a Lecturer in commerce for 20 years and as Principal for 3 years at Andhra Mahila Sabha college for Women, Hyderabad. Post-retirement, She is active in AMS Society and working on her 2024 goal of releasing a book on "People influenced by Swami Vivekananda."
+  </header>
 
-    </p>
-          
-         </div>
-      </div>
-       <div class="col-md-5">
-           <img class="d-block" src="img/speakers/Durga.jpg" alt="" >
-      </div>  
-    </div>
-  </div> 
-  <div class="card">
+  <div class="main">
+    <div class="container py-3">
+      <div class="title h1 text-center" style="color:white;font-family: verdana;font-weight:bold;">SPEAKERS</div>
+      <!-- Card Start -->
+
+
+      <div class="card">
         <div class="row ">
           <div class="col-md-7 px-3">
             <div class="card-block px-6">
-             <center> <h4 class="card-title"><b>Mr. Bhargav Yarrakula</b> </h4></center>
-             <p class="subt">Founder and Director, Jignasa Interface</p>
-            <p class="card-text">
-              Mr. Bhargav is a visionary advocate for youth engagement and holistic education is the Founder and Director of Jignasa Interface, a pioneer organization working at the intersection of in the Art, Culture, Heritage and youth domains. Jignasa interface first began as a passion which later grounded as a deeper organization touching lakhs of lives in several states of South India. Bhargav, a decade ago as he was beginning to work in his passionate areas of Art, Culture, Heritage and youth has identified the lack of proper engagement of youth with their true nature as the root cause of various societal issues, including anxiety, depression, joblessness, and suicidal tendencies. In the last decade, Bhargav, through JIGNASA, has successfully established partnerships with 30 colleges, establishing nine clubs in each. Presently, he is in the process of forging ties with an additional 20 colleges across three states, with a specific emphasis on traditional art form clubs.
+              <center>
+                <h4 class="card-title"><b>Mr. Dilip Kumar Solasa</b> </h4>
+              </center>
+              <p class="subt">
+                CEO, Clareo Minds Consulting
+              </p>
+              <p class="card-text">
+                Mr. Dilip Kumar Solasa had experience over 28 years in IT leadership, He is a seasoned expert in the
+                industry. Dilip held leadership roles in IT giants like Wipro, and Cognizant and managed large IT
+                portfolios across India, US, and Europe. Dilip transitioned into Executive Coaching 3 years back and
+                started his own leadership coaching firm. Dilip loves delving into positive psychology, emotional
+                intelligence frameworks, and applied neuroscience. With over 800+ hours of coaching experience, Dilip
+                combines industry experience with evidence-based coaching techniques to catapult introverts into the
+                orbit of fearless strategic influencers. His signature 3-Shift framework when coupled with his
+                real-world leadership experience makes him uniquely qualified to exponentially empower introverted
+                professionals to transform themselves to become impactful senior leaders with significant influence in
+                the society.
 
-		    </p>
-                
-             
+              </p>
+
             </div>
           </div>
-          <div class="col-md-5"> 
-          <img class="d-block" src="img/speakers/bhargav.jpeg" alt=""  >
+          <div class="col-md-5">
+            <img class="d-block" src="img/speakers/Dilip.jpeg" alt="">
           </div>
-         </div>
-      </div>
-  
-  <div class="card">
-      <div class="row ">
-        <div class="col-md-7 px-3">
-          <div class="card-block px-6">
-           <center> <h4 class="card-title"><b>Dr. Khushi Panjwani</b> </h4></center>
-           <p class="subt">Entrepreneur
-           </p>
-            <p class="card-text">
-              Dr. Khushi Panjwani is a dynamic individual making waves in various domains. As a bestselling author (50U50) and Entrepreneur (40U40) recognized by ET, she is celebrated for her accomplishments, including three-time world record holder, and an NSE-registered trader (30U30). Dr. Panjwani's influence extends globally, having been featured in international arenas such as Frankfurt, Germany; the Philippines; Dubai; Sharjah; St. Kitts and Nevis, among others. Her recent stint on Shark Tank India Season 3 showcases her resilience and innovation. With a rich background in politics and a keen eye for markets, Dr. Khushi Panjwani brings a unique blend of experiences and insights to the forefront.
-              </p>
-            
-           </div>
         </div>
-         <div class="col-md-5">
-             <img class="d-block" src="img/speakers/Khusi.jpg" alt="" >
-        </div>  
       </div>
-    </div> 
-	  <div class="card">
-      <div class="row ">
-        <div class="col-md-7 px-3">
-          <div class="card-block px-6">
-           <center> <h4 class="card-title"><b>Dr. Vishwanand Pattar</b> </h4></center>
-           <p class="subt" > 
-            HR Business Partner
-           </p>
-            <p class="card-text">
-              Dr Vishwanand Pattar is a Human Resources professional working with a multinational company. He has more than 25 years of experience in Human Resource organization and had spells in Pharmaceutical, Information Technology, Publishing, Infrastructure, Construction, Manufacturing, Agriculture, Biotechnology and Shared services sectors. He is a postgraduate in Life Sciences. He studied environmental and computer science; out of passion for poetry he pursued Masters in English literature. He earned a master’s degree in business administration, in Human Resource Management, Master’s degree in Philosophy in Human Resource Management and a Doctoral degree in Human Capital Management.
+      <div class="card">
+        <div class="row ">
+          <div class="col-md-7 px-3">
+            <div class="card-block px-6">
+              <center>
+                <h4 class="card-title"><b>Dr. Durga G L K</b> </h4>
+              </center>
+              <p class="subt">
+                Vice President, AMS
               </p>
-            
-           </div>
-        </div>
-         <div class="col-md-5">
-             <img class="d-block" src="img/speakers/Vishwa.jpeg" alt="" >
-        </div>  
-      </div>
-    </div> 
-	  <div class="card">
-      <div class="row ">
-        <div class="col-md-7 px-3">
-          <div class="card-block px-6">
-           <center> <h4 class="card-title"><b>Mr. Sandeep Chatterjee</b> </h4></center>
-           <p class="subt">
-            Supply Chain and Sustainability Leader, IBM Consulting
-           </p>
-            <p class="card-text">
-              Sandeep is a Supply Chain and Sustainability Leader with IBM Consulting with responsibility for engagements in supply chain, sustainability leveraging technology. Prior to IBM Consulting, he has worked with Deloitte, KPMG, Tata Motors, Lafarge, Infosys and Oracle Consulting and his key strengths lie in the areas of supply chain management, business process reengineering, emerging countries enablement, network optimization, sustainability, ERP advisory across multiple industries and geographies. Sandeep is also the Member of Board of Governors, IIM Kozhikode & the CEO and Chairman of International Supply Chain Education Alliance (ISCEA). ISCEA is on a mission to create awareness on supply chain across the world. He is also an Executive Member of ISCEA International Standards Board.
-              </p>
-            
-           </div>
-        </div>
-         <div class="col-md-5">
-             <img class="d-block" src="img/speakers/Sandeep.JPG" alt="" >
-        </div>  
-      </div>
-    </div> 
-    <div class="card">
-      <div class="row ">
-        <div class="col-md-7 px-3">
-          <div class="card-block px-6">
-           <center> <h4 class="card-title"><b>Mr. Ajinkya Lohakare</b> </h4></center>
-           <p class="subt">
-            CTO, Ditto Security
-           </p>
-            <p class="card-text">
-              Mr. Ajinkya Lohakare is a highly accomplished professional with a wealth of experience in the field of cybersecurity. As a security consultant, ethical hacking expert, and cyber security researcher, he brings a wealth of knowledge and expertise to the table. In addition to his role as CTO of Ditto Security, an information security-based innovation center, Mr. Lohakare has also been a security consultant for Fortune 500 companies and law enforcement agencies. He has also taught social engineering classes to many companies and government agencies and has assisted law enforcement in India, Bangladesh, and Sri Lanka on cybercrime. Mr. Lohakare is a highly sought-after speaker and a true expert in his field.
-              </p>
-            
-           </div>
-        </div>
-         <div class="col-md-5">
-             <img class="d-block" src="img/speakers/Ajinkya.jpg" alt="" >
-        </div>  
-      </div>
-    </div> 
-    
-	<div class="card">
-      <div class="row ">
-        <div class="col-md-7 px-3">
-          <div class="card-block px-6">
-           <center> <h4 class="card-title"><b>Mr. Venkata Chakrapani K</b> </h4></center>
-           <p class="subt">
-            Senior Leader - Finance & Legal
-           </p>
-            <p class="card-text">
-              Venkata Chakrapani K (Chakri) is a senior service delivery professional of finance, accounting & tax domains at global capability centres. He is a corporate governance enthusiast, qualified independent director, lawyer, project management expert focused on operational excellence & transformation. Bestowed with 20+ years of enriching experience in operating, leading, and setting up shared service center operations & strategy execution focusing on corporate governance, organizational growth, sustainable cost models, organizational controls/risk management. Expert in leading process operational excellence & service delivery, Innovative process improvements, data analytics, FP&A, Business/Commercial Finance, stakeholder management, organizational talent strategy and capability building. Specialist in curating customer centric service delivery framework for Global Capability Centers.
+              <p class="card-text">
+                Dr. G.L.K. Durga was born in Gudivada, AP, She had faced financial struggles during her initial years
+                but excelled academically. Despite challenges, She graduated first in college, secured a job, and
+                pursued M.Com, overcoming financial hurdles with scholarships. Marriage and motherhood didn't deter her
+                from obtaining an M.Phil and Ph.D. She became a Reader in Commerce, authored books, and presented
+                research papers globally. Served as a Lecturer in commerce for 20 years and as Principal for 3 years at
+                Andhra Mahila Sabha college for Women, Hyderabad. Post-retirement, She is active in AMS Society and
+                working on her 2024 goal of releasing a book on "People influenced by Swami Vivekananda."
 
-		  </p>
-            
-           </div>
-        </div>
-         <div class="col-md-5">
-             <img class="d-block" src="img/speakers/Chakrapani.jpeg" alt="" >
-        </div>  
-      </div>
-    </div> 
+              </p>
 
-	
-	<!-- <div class="card">
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img class="d-block" src="img/speakers/Durga.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row ">
+          <div class="col-md-7 px-3">
+            <div class="card-block px-6">
+              <center>
+                <h4 class="card-title"><b>Mr. Bhargav Yarrakula</b> </h4>
+              </center>
+              <p class="subt">Founder and Director, Jignasa Interface</p>
+              <p class="card-text">
+                Mr. Bhargav is a visionary advocate for youth engagement and holistic education is the Founder and
+                Director of Jignasa Interface, a pioneer organization working at the intersection of in the Art,
+                Culture, Heritage and youth domains. Jignasa interface first began as a passion which later grounded as
+                a deeper organization touching lakhs of lives in several states of South India. Bhargav, a decade ago as
+                he was beginning to work in his passionate areas of Art, Culture, Heritage and youth has identified the
+                lack of proper engagement of youth with their true nature as the root cause of various societal issues,
+                including anxiety, depression, joblessness, and suicidal tendencies. In the last decade, Bhargav,
+                through JIGNASA, has successfully established partnerships with 30 colleges, establishing nine clubs in
+                each. Presently, he is in the process of forging ties with an additional 20 colleges across three
+                states, with a specific emphasis on traditional art form clubs.
+
+              </p>
+
+
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img class="d-block" src="img/speakers/bhargav.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="row ">
+          <div class="col-md-7 px-3">
+            <div class="card-block px-6">
+              <center>
+                <h4 class="card-title"><b>Dr. Khushi Panjwani</b> </h4>
+              </center>
+              <p class="subt">Entrepreneur
+              </p>
+              <p class="card-text">
+                Dr. Khushi Panjwani is a dynamic individual making waves in various domains. As a bestselling author
+                (50U50) and Entrepreneur (40U40) recognized by ET, she is celebrated for her accomplishments, including
+                three-time world record holder, and an NSE-registered trader (30U30). Dr. Panjwani's influence extends
+                globally, having been featured in international arenas such as Frankfurt, Germany; the Philippines;
+                Dubai; Sharjah; St. Kitts and Nevis, among others. Her recent stint on Shark Tank India Season 3
+                showcases her resilience and innovation. With a rich background in politics and a keen eye for markets,
+                Dr. Khushi Panjwani brings a unique blend of experiences and insights to the forefront.
+              </p>
+
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img class="d-block" src="img/speakers/Khusi.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row ">
+          <div class="col-md-7 px-3">
+            <div class="card-block px-6">
+              <center>
+                <h4 class="card-title"><b>Dr. Vishwanand Pattar</b> </h4>
+              </center>
+              <p class="subt">
+                HR Business Partner
+              </p>
+              <p class="card-text">
+                Dr Vishwanand Pattar is a Human Resources professional working with a multinational company. He has more
+                than 25 years of experience in Human Resource organization and had spells in Pharmaceutical, Information
+                Technology, Publishing, Infrastructure, Construction, Manufacturing, Agriculture, Biotechnology and
+                Shared services sectors. He is a postgraduate in Life Sciences. He studied environmental and computer
+                science; out of passion for poetry he pursued Masters in English literature. He earned a master’s degree
+                in business administration, in Human Resource Management, Master’s degree in Philosophy in Human
+                Resource Management and a Doctoral degree in Human Capital Management.
+              </p>
+
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img class="d-block" src="img/speakers/Vishwa.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row ">
+          <div class="col-md-7 px-3">
+            <div class="card-block px-6">
+              <center>
+                <h4 class="card-title"><b>Mr. Sandeep Chatterjee</b> </h4>
+              </center>
+              <p class="subt">
+                Supply Chain and Sustainability Leader, IBM Consulting
+              </p>
+              <p class="card-text">
+                Sandeep is a Supply Chain and Sustainability Leader with IBM Consulting with responsibility for
+                engagements in supply chain, sustainability leveraging technology. Prior to IBM Consulting, he has
+                worked with Deloitte, KPMG, Tata Motors, Lafarge, Infosys and Oracle Consulting and his key strengths
+                lie in the areas of supply chain management, business process reengineering, emerging countries
+                enablement, network optimization, sustainability, ERP advisory across multiple industries and
+                geographies. Sandeep is also the Member of Board of Governors, IIM Kozhikode & the CEO and Chairman of
+                International Supply Chain Education Alliance (ISCEA). ISCEA is on a mission to create awareness on
+                supply chain across the world. He is also an Executive Member of ISCEA International Standards Board.
+              </p>
+
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img class="d-block" src="img/speakers/Sandeep.JPG" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row ">
+          <div class="col-md-7 px-3">
+            <div class="card-block px-6">
+              <center>
+                <h4 class="card-title"><b>Mr. Ajinkya Lohakare</b> </h4>
+              </center>
+              <p class="subt">
+                CTO, Ditto Security
+              </p>
+              <p class="card-text">
+                Mr. Ajinkya Lohakare is a highly accomplished professional with a wealth of experience in the field of
+                cybersecurity. As a security consultant, ethical hacking expert, and cyber security researcher, he
+                brings a wealth of knowledge and expertise to the table. In addition to his role as CTO of Ditto
+                Security, an information security-based innovation center, Mr. Lohakare has also been a security
+                consultant for Fortune 500 companies and law enforcement agencies. He has also taught social engineering
+                classes to many companies and government agencies and has assisted law enforcement in India, Bangladesh,
+                and Sri Lanka on cybercrime. Mr. Lohakare is a highly sought-after speaker and a true expert in his
+                field.
+              </p>
+
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img class="d-block" src="img/speakers/Ajinkya.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="row ">
+          <div class="col-md-7 px-3">
+            <div class="card-block px-6">
+              <center>
+                <h4 class="card-title"><b>Mr. Kartikeya Anand</b> </h4>
+              </center>
+              <p class="subt">
+                OSD to Finance Minister, Govt of AP
+              </p>
+              <p class="card-text">
+                Mr. Kartikeya Anand, OSD to the Minister of Andhra
+                Pradesh, specializing in Public Policy, Finance, and
+                Sustainable Development. A graduate of ISB, IIM B,
+                and Cornell University, USA, Kartikeya is
+                passionate about Renewable Energy, Education,
+                Skill Development, Entrepreneurship, Women
+                Empowerment, and citizen outreach. With a
+                dynamic approach, he is dedicated to driving
+                positive change and contributing to the
+                community's overall development
+
+              </p>
+
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img class="d-block" src="img/speakers/karthikeya.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="row ">
+          <div class="col-md-7 px-3">
+            <div class="card-block px-6">
+              <center>
+                <h4 class="card-title"><b>Mr. Venkata Chakrapani K</b> </h4>
+              </center>
+              <p class="subt">
+                Senior Leader - Finance & Legal
+              </p>
+              <p class="card-text">
+                Venkata Chakrapani K (Chakri) is a senior service delivery professional of finance, accounting & tax
+                domains at global capability centres. He is a corporate governance enthusiast, qualified independent
+                director, lawyer, project management expert focused on operational excellence & transformation. Bestowed
+                with 20+ years of enriching experience in operating, leading, and setting up shared service center
+                operations & strategy execution focusing on corporate governance, organizational growth, sustainable
+                cost models, organizational controls/risk management. Expert in leading process operational excellence &
+                service delivery, Innovative process improvements, data analytics, FP&A, Business/Commercial Finance,
+                stakeholder management, organizational talent strategy and capability building. Specialist in curating
+                customer centric service delivery framework for Global Capability Centers.
+
+              </p>
+
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img class="d-block" src="img/speakers/Chakrapani.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <div class="card">
       <div class="row ">
         <div class="col-md-7 px-3">
           <div class="card-block px-6">
@@ -368,8 +503,8 @@ Mr. Sujit Jha is a dedicated and performance-driven professional with sound know
         </div>  
       </div>
     </div>  -->
-	
-	<!-- <div class="card">
+
+      <!-- <div class="card">
       <div class="row ">
         <div class="col-md-7 px-3">
           <div class="card-block px-6">
@@ -388,8 +523,8 @@ Mr. Sujit Jha is a dedicated and performance-driven professional with sound know
         </div>  
       </div>
     </div>  -->
-	
-	<!-- <div class="card">
+
+      <!-- <div class="card">
         <div class="row ">
           <div class="col-md-7 px-3">
             <div class="card-block px-6">
@@ -411,7 +546,7 @@ of Social Science, Thiruvananthapuram. He is one of the Global Goodwill Ambassad
           </div>
          </div>
       </div> -->
-	<!-- <div class="card">
+      <!-- <div class="card">
         <div class="row ">
           <div class="col-md-7 px-3">
             <div class="card-block px-6">
@@ -429,7 +564,7 @@ Amit began his entrepreneurial journey in 2016 to revolutionize the face of tech
           </div>
          </div>
       </div> -->
-	<!-- <div class="card">
+      <!-- <div class="card">
         <div class="row ">
           <div class="col-md-7 px-3">
             <div class="card-block px-6">
@@ -444,8 +579,8 @@ Amit began his entrepreneurial journey in 2016 to revolutionize the face of tech
           </div>
          </div>
       </div> -->
-	
-	<!-- <div class="card">
+
+      <!-- <div class="card">
       <div class="row ">
         <div class="col-md-7 px-3">
           <div class="card-block px-6">
@@ -464,7 +599,7 @@ Amit began his entrepreneurial journey in 2016 to revolutionize the face of tech
         </div>  
       </div>
     </div>  -->
-	<!--
+      <!--
 	  <div class="card">
       <div class="row ">
         <div class="col-md-7 px-3">
@@ -502,11 +637,11 @@ Amit began his entrepreneurial journey in 2016 to revolutionize the face of tech
 
 
 
-     
 
-</div> 
 
-<!-- footer class="page-footer font-small blue">
+    </div>
+
+    <!-- footer class="page-footer font-small blue">
 
     Copyright 
     <div class="footer-copyright text-center py-3" ><p style="color: white;">© 2021 Copyright:
@@ -515,12 +650,15 @@ Amit began his entrepreneurial journey in 2016 to revolutionize the face of tech
     
   
   </footer -->
-	<br>
-	    <br>
-	<div class="container mb-4">
-		<center><p style="color: red;">Copyright © 2022 - TEDxVCE. All Rights Reserved</p></center>
-	    </div>
-</div>
-</div> 
- </body>
- </html>
+    <br>
+    <br>
+    <div class="container mb-4">
+      <center>
+        <p style="color: red;">Copyright © 2022 - TEDxVCE. All Rights Reserved</p>
+      </center>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
